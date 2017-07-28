@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949360.43221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "476"
+            endingLineNumber = "476"
+            landmarkName = "-callBuildQuoteNewServiceIntegration"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949389.753102"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "400"
+            endingLineNumber = "400"
+            landmarkName = "-callCustomerNameServiceIntegration:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PFBuildQuoteVC callCustomerNameServiceIntegration:]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+                  timestampString = "521026151.850354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "400"
+                  endingLineNumber = "400"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[PFBuildQuoteVC callCustomerNameServiceIntegration:]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+                  timestampString = "521026151.854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "401"
+                  endingLineNumber = "401"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949392.896993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
+            landmarkName = "-callBuildQuoteNewServiceIntegration"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PFBuildQuoteVC callBuildQuoteNewServiceIntegration]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+                  timestampString = "521026151.861932"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "496"
+                  endingLineNumber = "496"
+                  offsetFromSymbolStart = "1555">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[PFBuildQuoteVC callBuildQuoteNewServiceIntegration]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+                  timestampString = "521026151.864349"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "497"
+                  endingLineNumber = "497"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949418.770039"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "368"
+            endingLineNumber = "368"
+            landmarkName = "-callGetShopServiceIntegration"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PFBuildQuoteVC callGetShopServiceIntegration]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+                  timestampString = "521026151.870466"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "368"
+                  endingLineNumber = "368"
+                  offsetFromSymbolStart = "333">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__47-[PFBuildQuoteVC callGetShopServiceIntegration]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+                  timestampString = "521026151.87541"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "369"
+                  endingLineNumber = "369"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949457.995401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "369"
+            endingLineNumber = "369"
+            landmarkName = "-callGetShopServiceIntegration"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949471.379831"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "373"
+            endingLineNumber = "373"
+            landmarkName = "-callGetShopServiceIntegration"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949473.3159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "401"
+            endingLineNumber = "401"
+            landmarkName = "-callCustomerNameServiceIntegration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520949473.788006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "404"
+            endingLineNumber = "404"
+            landmarkName = "-callCustomerNameServiceIntegration:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFBuildQuoteVC.m"
+            timestampString = "520950086.688416"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "529"
+            endingLineNumber = "529"
+            landmarkName = "-callBuildQuoteNewServiceIntegration"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+            timestampString = "520951235.351199"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "628"
+            endingLineNumber = "628"
+            landmarkName = "-createAppoinmentServiceIntegration"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[createAppointmentViewController createAppoinmentServiceIntegration]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+                  timestampString = "521026151.90106"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "628"
+                  endingLineNumber = "628"
+                  offsetFromSymbolStart = "2085">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__69-[createAppointmentViewController createAppoinmentServiceIntegration]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+                  timestampString = "521026151.903107"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "629"
+                  endingLineNumber = "629"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+            timestampString = "520951238.263149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "669"
+            endingLineNumber = "669"
+            landmarkName = "-callgetDispatchServiceIntegration"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[createAppointmentViewController callgetDispatchServiceIntegration]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+                  timestampString = "521026151.907836"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "669"
+                  endingLineNumber = "669"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__68-[createAppointmentViewController callgetDispatchServiceIntegration]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+                  timestampString = "521026151.909966"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "670"
+                  endingLineNumber = "670"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+            timestampString = "520951244.271716"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "771"
+            endingLineNumber = "771"
+            landmarkName = "-createAppoinmentFromEquipmentServiceIntegration"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[createAppointmentViewController createAppoinmentFromEquipmentServiceIntegration]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+                  timestampString = "521026151.914658"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "771"
+                  endingLineNumber = "771"
+                  offsetFromSymbolStart = "1195">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__82-[createAppointmentViewController createAppoinmentFromEquipmentServiceIntegration]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/createAppointmentViewController.m"
+                  timestampString = "521026151.916678"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "772"
+                  endingLineNumber = "772"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+            timestampString = "520951401.964912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "409"
+            endingLineNumber = "409"
+            landmarkName = "-callgetMessageDispatchServiceIntegration"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PFSendMessageVC callgetMessageDispatchServiceIntegration]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+                  timestampString = "521026151.921611"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "409"
+                  endingLineNumber = "409"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__59-[PFSendMessageVC callgetMessageDispatchServiceIntegration]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+                  timestampString = "521026151.923914"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "411"
+                  endingLineNumber = "411"
+                  offsetFromSymbolStart = "130">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+            timestampString = "520951405.901243"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "540"
+            endingLineNumber = "540"
+            landmarkName = "-callGetCommunicationServiceIntegration:custName:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PFSendMessageVC callGetCommunicationServiceIntegration:custName:]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+                  timestampString = "521026151.929269"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "540"
+                  endingLineNumber = "540"
+                  offsetFromSymbolStart = "231">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__67-[PFSendMessageVC callGetCommunicationServiceIntegration:custName:]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+                  timestampString = "521026151.931386"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "542"
+                  endingLineNumber = "542"
+                  offsetFromSymbolStart = "89">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+            timestampString = "521010005.933297"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "601"
+            endingLineNumber = "601"
+            landmarkName = "-callPostCommunicationServiceIntegration:empId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+            timestampString = "521010008.725643"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "612"
+            endingLineNumber = "612"
+            landmarkName = "-callPostCommunicationServiceIntegration:empId:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PFSendMessageVC callPostCommunicationServiceIntegration:empId:]"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+                  timestampString = "521026151.939926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "612"
+                  endingLineNumber = "612"
+                  offsetFromSymbolStart = "565">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__65-[PFSendMessageVC callPostCommunicationServiceIntegration:empId:]_block_invoke"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/ViewControllers/Dispatch/PFSendMessageVC.m"
+                  timestampString = "521026151.941902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "614"
+                  endingLineNumber = "614"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/ViewControllers/Installs/PFUploadOldUnitViewController.m"
+            timestampString = "521024700.148512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "-imagePickerController:didFinishPickingImage:editingInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/WebServices/ServiceHelper/ServiceHelper_AF3.m"
+            timestampString = "521026028.346423"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "-makeMultipartWebApiCallWithParameters:AndPath:andData:mediaType:WithCompletion:andProgresscompletion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PriceFixer/WebServices/ServiceHelper/ServiceHelper_AF3.m"
+            timestampString = "521025364.694194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "-makeMultipartWebApiCallWithParameters:AndPath:andData:mediaType:WithCompletion:andProgresscompletion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__122-[ServiceHelper_AF3 makeMultipartWebApiCallWithParameters:AndPath:andData:mediaType:WithCompletion:andProgresscompletion:]_block_invoke.142"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/WebServices/ServiceHelper/ServiceHelper_AF3.m"
+                  timestampString = "521026151.958395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "90">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__122-[ServiceHelper_AF3 makeMultipartWebApiCallWithParameters:AndPath:andData:mediaType:WithCompletion:andProgresscompletion:]_block_invoke_2.143"
+                  moduleName = "PriceFixer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akashmehrotra/Downloads/pfplatform-16052661-ios-pricefixeripadapp-1b811e78a5f0d45fba1a0d3b41c47d40a28cbe54-2/PriceFixer/WebServices/ServiceHelper/ServiceHelper_AF3.m"
+                  timestampString = "521026151.960414"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "14">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m"
+            timestampString = "521025387.718894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "202"
+            endingLineNumber = "202"
+            landmarkName = "-POST:parameters:constructingBodyWithBlock:progress:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m"
+            timestampString = "521025390.42295"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "-POST:parameters:constructingBodyWithBlock:progress:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

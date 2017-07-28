@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PFChatWebViewViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="dEp-7Q-77i" id="dZU-dE-O7E"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1BY-lw-gTg">
+                    <rect key="frame" x="50" y="68" width="924" height="631"/>
+                    <subviews>
+                        <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dEp-7Q-77i">
+                            <rect key="frame" x="20" y="59" width="884" height="547"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="q5B-zJ-ac2"/>
+                            </connections>
+                        </webView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiG-Zr-ATC">
+                            <rect key="frame" x="864" y="0.0" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="PwI-Ug-Vmv"/>
+                                <constraint firstAttribute="height" constant="60" id="anw-Kj-xqj"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" image="cross-24-512.png"/>
+                            <connections>
+                                <action selector="cancelButtonAction:" destination="-1" eventType="touchUpInside" id="ZHN-Bp-M7L"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="dEp-7Q-77i" secondAttribute="bottom" constant="25" id="Ms3-XX-TbX"/>
+                        <constraint firstAttribute="trailing" secondItem="dEp-7Q-77i" secondAttribute="trailing" constant="20" id="Wq2-32-Cry"/>
+                        <constraint firstItem="dEp-7Q-77i" firstAttribute="top" secondItem="1BY-lw-gTg" secondAttribute="top" constant="59" id="frx-4h-dbw"/>
+                        <constraint firstItem="EiG-Zr-ATC" firstAttribute="top" secondItem="1BY-lw-gTg" secondAttribute="top" id="l9b-es-qn2"/>
+                        <constraint firstItem="dEp-7Q-77i" firstAttribute="leading" secondItem="1BY-lw-gTg" secondAttribute="leading" constant="20" id="uvV-u1-rJ0"/>
+                        <constraint firstAttribute="trailing" secondItem="EiG-Zr-ATC" secondAttribute="trailing" id="yGk-Ui-HBf"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.3987014358108108" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="1BY-lw-gTg" secondAttribute="trailing" constant="50" id="KDG-46-jbi"/>
+                <constraint firstItem="1BY-lw-gTg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="mhi-aL-KJY"/>
+                <constraint firstAttribute="bottom" secondItem="1BY-lw-gTg" secondAttribute="bottom" constant="69" id="mvW-pg-Lks"/>
+                <constraint firstItem="1BY-lw-gTg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="68" id="wRv-Ba-aB0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-378" y="21"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cross-24-512.png" width="24" height="24"/>
+    </resources>
+</document>

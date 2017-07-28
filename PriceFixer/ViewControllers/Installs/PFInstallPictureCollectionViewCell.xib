@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="installPictureCellId" id="gTV-IL-0wX" customClass="PFInstallPictureCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pj-JG-4xF">
+                        <rect key="frame" x="7" y="8" width="135" height="134"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dpi-ng-6Eg">
+                                <rect key="frame" x="6" y="6" width="124" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="103" id="Mi3-fl-Wta"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="16m-s7-w0O">
+                                <rect key="frame" x="8" y="113" width="122" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="0hg-qD-LA6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="0.38431372549999998" green="0.70196078429999997" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dpi-ng-6Eg" firstAttribute="leading" secondItem="0pj-JG-4xF" secondAttribute="leading" constant="6" id="C15-yf-6Mn"/>
+                            <constraint firstAttribute="trailing" secondItem="16m-s7-w0O" secondAttribute="trailing" constant="5" id="MZI-f7-USx"/>
+                            <constraint firstItem="Dpi-ng-6Eg" firstAttribute="top" secondItem="0pj-JG-4xF" secondAttribute="top" constant="6" id="TI7-3W-pn9"/>
+                            <constraint firstItem="16m-s7-w0O" firstAttribute="leading" secondItem="0pj-JG-4xF" secondAttribute="leading" constant="8" id="arc-t1-js7"/>
+                            <constraint firstAttribute="trailing" secondItem="Dpi-ng-6Eg" secondAttribute="trailing" constant="5" id="dPc-fH-hDb"/>
+                            <constraint firstItem="16m-s7-w0O" firstAttribute="top" secondItem="Dpi-ng-6Eg" secondAttribute="bottom" constant="4" id="rIK-ve-15w"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="0pj-JG-4xF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="Rho-ga-f95"/>
+                <constraint firstAttribute="bottom" secondItem="0pj-JG-4xF" secondAttribute="bottom" constant="8" id="XAd-ai-g3g"/>
+                <constraint firstAttribute="trailing" secondItem="0pj-JG-4xF" secondAttribute="trailing" constant="8" id="mOK-Rf-CbU"/>
+                <constraint firstItem="0pj-JG-4xF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="zKO-yJ-Ml7"/>
+            </constraints>
+            <size key="customSize" width="152" height="104"/>
+            <connections>
+                <outlet property="imageNameLabel" destination="16m-s7-w0O" id="26m-dH-bQA"/>
+                <outlet property="installpictureImageView" destination="Dpi-ng-6Eg" id="WTF-3n-rek"/>
+            </connections>
+            <point key="canvasLocation" x="76" y="79"/>
+        </collectionViewCell>
+    </objects>
+</document>

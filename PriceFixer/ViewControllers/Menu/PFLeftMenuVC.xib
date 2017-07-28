@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PFLeftMenuVC">
+            <connections>
+                <outlet property="menuTableView" destination="Jxf-e7-sER" id="qlP-hy-2pg"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jxf-e7-sER">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.1764705882" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="qH1-59-fDj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cte-Da-Iuf">
+                                <rect key="frame" x="44" y="15" width="207" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="SW1-QS-SCx"/>
+                                    <constraint firstAttribute="height" constant="47" id="kON-wX-4l4"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.086274509799999996" green="0.1764705882" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Cte-Da-Iuf" firstAttribute="top" secondItem="qH1-59-fDj" secondAttribute="top" constant="15" id="Im4-Pn-JvY"/>
+                            <constraint firstItem="Cte-Da-Iuf" firstAttribute="leading" secondItem="qH1-59-fDj" secondAttribute="leading" constant="44" id="dqB-hl-bkc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ykp-nR-aV4"/>
+                        <outlet property="delegate" destination="-1" id="R2U-3p-OFF"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Jxf-e7-sER" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2hh-1m-DsE"/>
+                <constraint firstAttribute="bottom" secondItem="Jxf-e7-sER" secondAttribute="bottom" id="VNe-Dk-j99"/>
+                <constraint firstAttribute="trailing" secondItem="Jxf-e7-sER" secondAttribute="trailing" id="Vmb-67-gfR"/>
+                <constraint firstItem="Jxf-e7-sER" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jSu-Hc-D4H"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo.png" width="243" height="36"/>
+    </resources>
+</document>
